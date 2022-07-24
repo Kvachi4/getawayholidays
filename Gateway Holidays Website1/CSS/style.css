@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Space Mono', monospace !important;
+    
+
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.card-title{
+    font-weight: 900 !important;
+}
+.card-text{
+    opacity: 65% !important;
+}
+.offer{
+    text-align: center !important;
+    color: black !important;
+}
+
+.active{
+    color: black !important;
+}
+.makeBlue{
+    background-color: #1f567c !important;
+}
+
+.outline{
+    border: none !important;
+}
+.card-img-top{
+    border-radius: 0% !important;
+}
+.carousel-control-next-icon{
+    background-color: aqua;
+}
+.services{
+    text-align: center;
+    color: blue;
+   
+}
+.weather{
+  margin-block-start: 10%;
+}
+.LGblue{
+       
+    padding-block-end: 15%;
+    padding-top: 8%;
+    padding-inline: 3%;
+
+   
+}
+.services2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5%;
+    font-family: 'Space Mono', monospace;
+    
+}
+.makeBlack{
+    color: black !important;
+}
+.makeYellow{
+    background-color: #febc2f;
+}
+.makeBlackB{
+    background-color: black !important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col1{
+max-width: 350px !important;
+
+}
+.package-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
+    color: white;
+    padding-block: 10%;
+    background-image: url(https://images.unsplash.com/photo-1613425293967-16ae72140466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+.packages{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+
+}
+
+.bg-transparent{
+    background-color: transparent !important;
+}
+.card-body2{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin-top: 5px;
+}
+.card{
+    background-color: transparent !important;
+    border: none !important;
+}
+.col{
+    min-width: 250px !important;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block: 1px solid rgba(0, 0, 0, 0.349);
+    margin-block: 5%;
+    padding: 3%;
+}
+.about-image{
+    width: 50%;
+    background-image: url(https://cdn.dribbble.com/users/67829/screenshots/3964090/attachments/905733/anton-egorov-summer-winter-alps-fullsize.jpg?compress=1&resize=800x600&vertical=top);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-block: 5%;
+    
+}
+.col2{
+    max-width: 40%!important;
+    min-width: 200px;
+    
+    }
